@@ -1,3 +1,6 @@
+html {
+  scroll-snap-type: y mandatory;
+}
 .app__logo {
   height: 12vh;
 }
