@@ -40,12 +40,16 @@ function VideoFooter({ channel, song, likes, shares, avatarSrc }) {
                     <MoreHorizIcon fontsize="large" />
                 </div>
                 <div className='videoFooter__actionsRight'>
-                    <ModeCommentIcon />
-                    <p>{shares}</p>
+                    <div className="videoFooter__stat">
+                        <FavouriteIcon />
+                        <p>{likes}</p>
+                        <ModeCommentIcon />
+                        <p>{shares}</p>
+                    </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default VideoFooter

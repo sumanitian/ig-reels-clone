@@ -39,6 +39,16 @@
     display: flex;
 }
 
+.videoFooter__stat{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.videoFooter__stat > p {
+    margin-left: 3px;
+}
+
 .videoFooter__ticker > .ticker {
     height: fit-content;
     margin-left: 30px;
