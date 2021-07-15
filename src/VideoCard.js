@@ -29,6 +29,7 @@ function VideoCard() {
                 alt='IG reel video'
                 loop
             />
+            <VideoFooter />
         </div>
     )
 }
