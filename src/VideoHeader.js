@@ -6,6 +6,8 @@ function VideoHeader() {
     return (
         <div className='videoHeader'>
             <ArrowBackIosIcon />
+            <h3>Reels</h3>
+            <CameraAltOutlinedIcon />
         </div>
     )
 }
