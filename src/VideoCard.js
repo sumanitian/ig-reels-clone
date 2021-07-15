@@ -5,7 +5,7 @@ function VideoCard() {
     return (
         <div className='videoCard'>
             <video
-                className="video__player"
+                className="videoCard__player"
                 src='https://www.instagram.com/reel/CRTLdt3DxyR/?utm_source=ig_web_button_share_sheet'
                 alt='IG reel video'
                 loop
