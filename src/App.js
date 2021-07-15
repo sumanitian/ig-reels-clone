@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import VideoCard from './VideoCard';
 function App() {
   return (
     // BEM naming convention
@@ -13,9 +13,9 @@ function App() {
           {/* Reels text */}
       </div>
       <div className="app__videos">
-        {/* containeer of app_videos (scrollable container) */}
-
+        {/* containeer of app_videos (scrollable container) *}
         {/* <video> */}
+        <VideoCard />
       </div>
     </div>
   );
