@@ -6,6 +6,12 @@ html {
   display: grid;
   place-items: center;
   height: 100vh;
+  background-color: black;
+}
+
+.app__top > h1 {
+  text-align: center;
+  color: white;
 }
 
 .app__logo {
