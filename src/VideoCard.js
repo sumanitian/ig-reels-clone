@@ -19,6 +19,7 @@ function VideoCard() {
         }
     return (
         <div className='videoCard'>
+            <VideoHeader />
             <video
                 ref={videoRef}
                 onclick={onVideoPress}
