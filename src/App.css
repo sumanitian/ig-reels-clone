@@ -1,6 +1,12 @@
 html {
   scroll-snap-type: y mandatory;
 }
+
+.app {
+  display: grid;
+  place-items: center;
+}
+
 .app__logo {
   height: 12vh;
 }
