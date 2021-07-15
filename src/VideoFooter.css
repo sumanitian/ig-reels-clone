@@ -1,8 +1,8 @@
-/* .videoFooter{
+.videoFooter{
     position: relative;
     margin-left: 20px;
     bottom:100px;
-} */
+}
 
 .videoFooter__text {
     position: absolute;
@@ -21,4 +21,11 @@
     color: black;
     font-weight: 900;
     text-transform: inherit;
+}
+
+.videoFooter__ticker > .ticker {
+    height: fit-content;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width:60%;
 }
