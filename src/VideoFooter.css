@@ -1,5 +1,24 @@
-.videoFooter{
+/* .videoFooter{
     position: relative;
     margin-left: 20px;
     bottom:100px;
+} */
+
+.videoFooter__text {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.videoFooter__text > h3 {
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.videoFooter__text > h3 > button {
+    color: black;
+    font-weight: 900;
+    text-transform: inherit;
 }
