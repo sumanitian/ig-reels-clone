@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './VideoCard.css';
 
 function VideoCard() {
+    const [isVideoPlaying, setIsVideoPlaying] = 
+    useState(false)
+    // useState
+    // useRef
     return (
         <div className='videoCard'>
             <video
@@ -14,4 +18,4 @@ function VideoCard() {
     )
 }
 
-export default VideoCard;
+export default VideoCard
