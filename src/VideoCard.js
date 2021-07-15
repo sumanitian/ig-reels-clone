@@ -9,8 +9,12 @@ function VideoCard() {
         const onVideoPress = () => {
             if (isVideoPlaying) {
                 //stop
+                videoRef.current.pause();
+                setIsVideoPlaying(false)
             } else {
                 // play
+                videoRef.current.play();
+                setIsVideoPlaying(true)
             }
         }
     return (
