@@ -17,7 +17,7 @@ function VideoCard() {
                 videoRef.current.play();
                 setIsVideoPlaying(true)
             }
-        }
+        };
     return (
         <div className='videoCard'>
             <VideoHeader />
