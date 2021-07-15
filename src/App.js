@@ -11,7 +11,15 @@ function App() {
         <h1>Reels</h1>
       </div>
       <div className="app__videos">
-        <VideoCard />
+        <VideoCard 
+          channel={channel}
+          avatarSrc={avatarSrc}
+          song={song}
+          url={url}
+          likes={likes}
+          shares={shares}
+
+        />
         <VideoCard />
       </div>
     </div>
