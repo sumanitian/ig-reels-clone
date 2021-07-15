@@ -27,4 +27,5 @@ html {
   max-width: 450px;
   max-height: 1200px;
   overflow: scroll;
+  scroll-snap-type: y mandatory;
 }
